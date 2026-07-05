@@ -1,0 +1,6 @@
+{
+  "name": "test-static-hosting",
+  "scripts": {
+    "start": "npx serve -s . -l $PORT"
+  }
+}
