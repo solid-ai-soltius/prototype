@@ -297,9 +297,9 @@
       </div>
       <div class="browser-body">
         <div class="browser-sidebar">
-          <div class="brand"><div class="bmark">LI</div><div><b>LICA</b><small>Istana Surya</small></div></div>
+          <div class="brand"><div class="bmark">LI</div><div><b>SOLITA</b><small>Istana Surya</small></div></div>
           <div class="nav-item active" data-internal="followup"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Tindak Lanjut Penagihan</div>
-          <div class="nav-item" data-internal="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>Dashboard LICA</div>
+          <div class="nav-item" data-internal="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg>Dashboard SOLITA</div>
         </div>
         <div class="browser-content">
           <div class="internal-panel active" id="panel-followup">
@@ -311,7 +311,7 @@
             <div id="followup-detail" style="display:none;"></div>
           </div>
           <div class="internal-panel" id="panel-dashboard">
-            <div class="panel-title">📊 Dashboard LICA</div>
+            <div class="panel-title">📊 Dashboard SOLITA</div>
             <div class="panel-sub">Grading customer, jatuh tempo, dan total outstanding per metode penagihan.</div>
             <div class="dash-summary" id="dashSummary"></div>
             <div class="bar-compare" id="barCompare"></div>
@@ -329,7 +329,7 @@
 
   <section class="view" id="view-flow">
     <div class="panel-title">🔀 Alur Sistem Tagih Utang</div>
-    <div class="panel-sub">Arah panah menunjukkan siapa mengirim ke siapa — dari SAP B1, Istana AI, ke customer dan Sales &amp; Finance, hingga tercatat di Dashboard LICA.</div>
+    <div class="panel-sub">Arah panah menunjukkan siapa mengirim ke siapa — dari SAP B1, Istana AI, ke customer dan Sales &amp; Finance, hingga tercatat di Dashboard SOLITA.</div>
     <div class="flow-wrap">
       <svg class="flow-svg" viewBox="0 0 680 464" width="100%">
         <defs>
@@ -351,7 +351,7 @@
 
         <g class="fnode cat-blue" onclick="flowDetail('Istana AI (LICA)','Membaca due date dan metode penagihan dari SAP B1 secara scheduled, menjalankan attempt 1 otomatis ke customer, dan menganalisis pola respons untuk grading A/B/C.')">
           <rect x="220" y="136" width="240" height="56" rx="10"/>
-          <text class="fbox-title" x="340" y="158" text-anchor="middle">Istana AI (LICA)</text>
+          <text class="fbox-title" x="340" y="158" text-anchor="middle">Istana AI (SOLITA)</text>
           <text class="fbox-sub" x="340" y="176" text-anchor="middle">Attempt 1 &amp; analisis pola</text>
         </g>
 
@@ -369,7 +369,7 @@
 
         <g class="fnode cat-purple" onclick="flowDetail('Dashboard LICA','Merangkum hasil seluruh attempt dari customer maupun Sales/Finance menjadi grading customer (A/B/C) beserta alasannya, dan laporan total outstanding per metode Collection vs Invoice.')">
           <rect x="100" y="368" width="480" height="56" rx="10"/>
-          <text class="fbox-title" x="340" y="390" text-anchor="middle">Dashboard LICA</text>
+          <text class="fbox-title" x="340" y="390" text-anchor="middle">Dashboard SOLITA</text>
           <text class="fbox-sub" x="340" y="408" text-anchor="middle">Grading customer &amp; laporan outstanding</text>
         </g>
       </svg>
@@ -379,7 +379,7 @@
         <span><i class="ldot" style="background:#3390EC"></i>Istana AI</span>
         <span><i class="ldot" style="background:#31B872"></i>Customer</span>
         <span><i class="ldot" style="background:#F2994A"></i>Sales &amp; finance</span>
-        <span><i class="ldot" style="background:#7B5CFA"></i>Dashboard LICA</span>
+        <span><i class="ldot" style="background:#7B5CFA"></i>Dashboard SOLITA</span>
       </div>
 
       <div class="flow-detail" id="flowDetail">
